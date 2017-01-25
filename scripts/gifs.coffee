@@ -1,8 +1,10 @@
 # Description:
-#  Let everyone know that it's done and over with. 
-#
+#   because internet
 
 module.exports = (robot) ->
 
   robot.hear /it'?s done|i (did|finished|completed|done) it/i, (res) ->
     res.send "http://media.giphy.com/media/zCME2Cd20Czvy/giphy.gif"
+
+  robot.hear /shame/i, (res) ->
+    res.send "https://m.popkey.co/6bee24/6GJWk.gif"
