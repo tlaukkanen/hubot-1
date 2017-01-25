@@ -134,4 +134,17 @@ We run hubot on Debian on GCE. See [the docs][deploy-unix].
 
 [deploy-unix]: https://github.com/github/hubot/blob/master/docs/deploying/unix.md
 
+- - -
 
+When deploying, copy the `bin/hubot.service` script to
+`/etc/systemd/system/hubot.service` and modify the file appropriately.
+
+You need to set/modify the following env vars:
+
+- `HUBOT_SLACK_TOKEN` for slack adapter
+- `HUBOT_GOOGLE_IMAGES_HEAR=1` to enable "image me"
+- for [google image
+  search](https://github.com/hubot-scripts/hubot-google-images#custom-mustachification-service)
+  - `HUBOT_GOOGLE_CSE_ID`
+  - `HUBOT_GOOGLE_CSE_KEY`
+- `BREWERY_DB` for hubot-beer-me
