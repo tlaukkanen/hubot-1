@@ -2,14 +2,11 @@
   "name": "hubot",
   "version": "0.0.0",
   "private": true,
-
   "author": "Ben Sima <bsima@liaison.com>",
-
   "description": "Liaison's robot overlord",
-
   "dependencies": {
+    "@slack/client": "^3.8.1",
     "hubot": "^2.19.0",
-    "hubot-slack": "^4.3.1",
     "hubot-bikeshed": "^1.1.0",
     "hubot-business-cat": "^1.5.3",
     "hubot-diagnostics": "0.0.1",
@@ -27,9 +24,9 @@
     "hubot-scripts": "^2.17.2",
     "hubot-seriouslyguys": "^1.0.0",
     "hubot-shipit": "^0.2.0",
+    "hubot-slack": "^4.3.1",
     "hubot-standup-alarm": "^0.1.0"
   },
-
   "engines": {
     "node": "0.10.x"
   }
