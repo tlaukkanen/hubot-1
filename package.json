@@ -2,8 +2,11 @@
   "name": "hubot",
   "version": "0.0.0",
   "private": true,
+
   "author": "Ben Sima <bsima@liaison.com>",
-  "description": "Liaison's CRO - 'chief robotic officer'",
+
+  "description": "Liaison's robot overlord",
+
   "dependencies": {
     "hubot": "^2.19.0",
     "hubot-slack": "^4.3.1",
@@ -26,6 +29,7 @@
     "hubot-shipit": "^0.2.0",
     "hubot-standup-alarm": "^0.1.0"
   },
+
   "engines": {
     "node": "0.10.x"
   }
