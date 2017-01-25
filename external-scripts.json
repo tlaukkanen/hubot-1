@@ -8,5 +8,12 @@
   "hubot-maps",
   "hubot-redis-brain",
   "hubot-rules",
-  "hubot-shipit"
+  "hubot-shipit",
+  "hubot-business-cat",
+  "hubot-standup-alarm",
+  "hubot-http-status",
+  "hubot-graphme",
+  "hubot-fliptable",
+  "hubot-bikeshed",
+  "hubot-seriouslyguys"
 ]
