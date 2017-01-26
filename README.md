@@ -45,6 +45,8 @@ available hubot plugins on [npmjs.com][npmjs] or by using `npm search`:
     hubot-pandapanda a hubot script for panda responses =missu 2014-11-30 0.9.2   hubot hubot-scripts panda
     ...
 
+Also check out the [Hubot Script
+Catalog](http://hubot-script-catalog.herokuapp.com/)
 
 To use a package, check the package's documentation, but in general it is:
 
