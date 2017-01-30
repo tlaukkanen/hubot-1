@@ -9,6 +9,7 @@
     "hubot": "^2.19.0",
     "hubot-beer-me": "^0.1.2",
     "hubot-bikeshed": "^1.1.0",
+    "hubot-bitcoin": "^1.0.3",
     "hubot-business-cat": "^1.5.3",
     "hubot-diagnostics": "0.0.1",
     "hubot-fliptable": "^1.2.0",
