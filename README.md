@@ -96,8 +96,9 @@ $ sudo git pull
 $ sudo systemctl restart hubot
 ```
 
-When deploying, copy the `bin/hubot.service` script to
-`/etc/systemd/system/hubot.service` and modify the file appropriately.
+When deploying for the first time, copy the `bin/hubot.service` script
+to `/etc/systemd/system/hubot.service` and modify the file
+appropriately.
 
 You need to set/modify the following env vars:
 
