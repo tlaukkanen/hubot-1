@@ -28,6 +28,7 @@
     "hubot-standup-alarm": "^0.1.0",
     "hubot-weather": "^1.0.4",
     "underscore": "^1.8.3"
+    "hubot-tell": "*"
   },
   "engines": {
     "node": "0.10.x"
