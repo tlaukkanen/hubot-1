@@ -16,5 +16,6 @@
   "hubot-seriouslyguys",
   "hubot-beer-me",
   "hubot-bitcoin",
-  "hubot-weather"
+  "hubot-weather",
+  "hubot-tell"
 ]
