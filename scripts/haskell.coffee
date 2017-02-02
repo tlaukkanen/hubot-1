@@ -33,7 +33,6 @@ module.exports = (robot) ->
             if result.error
               msg.send result.error
             else
-              msg.send result.success.value
-              msg.send result.success.type
+              msg.send "#{result.success.value}\n#{result.success.type}"
           else
             msg.send "Unable to evaluate script: #{script}. Request returned with the status code: #{res.statusCode}"
