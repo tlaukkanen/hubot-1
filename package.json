@@ -27,7 +27,7 @@
     "hubot-slack": "^4.3.1",
     "hubot-standup-alarm": "^0.1.0",
     "hubot-weather": "^1.0.4",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
     "hubot-tell": "*"
   },
   "engines": {
