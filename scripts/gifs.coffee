@@ -8,3 +8,6 @@ module.exports = (robot) ->
 
   robot.hear /shame/i, (res) ->
     res.send "https://m.popkey.co/6bee24/6GJWk.gif"
+
+  robot.hear /do it/i, (res) ->
+    res.send "https://media.giphy.com/media/io7yBs6CsXuAE/giphy.gif"
