@@ -18,5 +18,8 @@ module.exports = (robot) ->
   robot.hear /but why/i, (res) ->
     res.send "https://media.giphy.com/media/1M9fmo1WAFVK0/giphy.gif"
 
+  robot.hear /good point/i, (res) ->
+    res.send "https://img.memecdn.com/wait-good-point_fb_1144675.jpg"
+
   robot.hear /dog/i, (res) ->
     res.send "https://media.tenor.co/images/46892d582757ea6381b593053556b667/tenor.gif"
