@@ -12,10 +12,10 @@ module.exports = (robot) ->
   robot.hear /do it/i, (res) ->
     res.send "https://media.giphy.com/media/io7yBs6CsXuAE/giphy.gif"
 
-  robot.hear /y tho|y though|why tho|why though/i, (res) ->
+  robot.hear /y tho/i, (res) ->
     res.send "https://i.imgur.com/yNlQWRM.jpg"
 
-  robot.hear /but why|but y|/i, (res) ->
+  robot.hear /but why/i, (res) ->
     res.send "https://media.giphy.com/media/1M9fmo1WAFVK0/giphy.gif"
 
   robot.hear /dog/i, (res) ->
