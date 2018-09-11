@@ -7,17 +7,20 @@
   "dependencies": {
     "@slack/client": "^3.8.1",
     "hubot": "^2.19.0",
+    "hubot-auth": "^2.1.0",
     "hubot-beer-me": "^0.1.2",
     "hubot-bikeshed": "^1.1.0",
     "hubot-bitcoin": "^1.0.3",
-    "hubot-business-cat": "^1.5.3",
     "hubot-diagnostics": "0.0.1",
     "hubot-fliptable": "^1.2.0",
+    "hubot-gh-issues": "https://github.com/tlaukkanen/hubot-gh-issues/tarball/master",
+    "hubot-gh-token": "0.0.1",
     "hubot-google-images": "^0.2.6",
     "hubot-google-translate": "^0.2.0",
     "hubot-graphme": "^0.2.0",
     "hubot-help": "^0.2.0",
     "hubot-http-status": "^0.2.2",
+    "hubot-kubernetes": "https://github.com/tlaukkanen/hubot-kubernetes/tarball/master",
     "hubot-maps": "0.0.2",
     "hubot-redis-brain": "0.0.3",
     "hubot-rules": "^0.1.1",
@@ -25,10 +28,12 @@
     "hubot-seriouslyguys": "^1.0.0",
     "hubot-shipit": "^0.2.0",
     "hubot-slack": "^4.3.1",
+    "hubot-spectrum": "file:///home/tlaukkanen/projects/hubot-spectrum",
     "hubot-standup-alarm": "^0.1.0",
+    "hubot-suggest": "^1.0.0",
+    "hubot-tell": "*",
     "hubot-weather": "^1.0.4",
-    "underscore": "^1.8.3",
-    "hubot-tell": "*"
+    "underscore": "^1.8.3"
   },
   "engines": {
     "node": "0.10.x"
